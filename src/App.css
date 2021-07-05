@@ -1,0 +1,243 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #17a2b8;
+  height: 100vh;
+}
+
+#login
+{
+  
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding-top: 10%;
+}
+
+.head-welcome
+{
+  font-family: Poppins;
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 66px;
+/* or 132% */
+
+text-align: center;
+letter-spacing: 1px;
+color: #14142B;
+}
+.head-subtitle
+{
+  
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 30px;
+line-height: 34px;
+/* identical to box height, or 113% */
+
+text-align: center;
+letter-spacing: 1px;
+
+/* Grayscale / Body */
+
+color: #4E4B66;
+}
+.mt-c68
+{
+  margin-top: 68px;
+}
+.mt-c30
+{
+  margin-top: 30px;
+}
+.MuiInputBase-input
+{
+  width: 236px!important;
+}
+.MuiInputLabel-shrink
+{
+  font-family: Poppins!important;
+  font-style: normal!important;
+  font-weight: 500!important;
+  font-size: 16px!important;
+  line-height: 22px!important;
+  /* identical to box height, or 157% */
+  
+  letter-spacing: 0.25px!important;
+  text-transform: uppercase;
+  /* Grayscale / Label */
+  
+  color: #6E7191!important;
+}
+.MuiFilledInput-underline:before
+{
+  border: none!important;
+}
+.MuiFilledInput-root{
+background-color: #EFF0F7!important;
+}
+.MuiFilledInput-input ,.MuiInputBase-input
+{
+  font-family: Poppins!important;
+    font-style: normal!important;
+    font-weight: 500!important;
+    font-size: 16px!important;
+    line-height: 28px!important;
+    letter-spacing: 0.75px!important;
+    color: #14142B!important;
+}
+.MuiButton-containedPrimary
+{
+  background: #5F2EEA!important;
+    width: 256px;
+    border-radius: 5px;
+    padding: 10px;
+    text-transform: initial;
+}
+.MuiButton-containedPrimary span
+{
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 28px;
+  
+  color: #F7F7FC;
+  }
+  .mx-card-para-stl
+  {
+    top: 50%;
+    position: relative;
+    left: 10%;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    display: flex;
+    align-items: flex-end;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+  }
+  .card-short-head
+  {
+    
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 25px;
+/* identical to box height */
+
+letter-spacing: 1px;
+
+color: #000000;
+text-align: left;
+margin-left: 7%;
+  }
+  .date-heading
+  {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+letter-spacing: 1px;
+
+color: #000000;
+margin-left: 7%;
+margin-top: -3%;
+text-align: left;
+  }
+  .card-main
+  {
+    
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  .overlay-3248asu23n{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color :white;
+  z-index: 22;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
+}
+.overlay-3248asu23n .loading-animation{
+
+  width: 550px;
+  border-radius: 3em;
+
+}
+
+
+@media only screen and (max-width: 768px) {
+  .overlay-3248asu23n .loading-animation{
+        
+    width: 450px; 
+}
+}
+
+@media only screen and (max-width: 600px) {
+
+  .overlay-3248asu23n .loading-animation{
+        
+    width: 250px; 
+}
+
+}
