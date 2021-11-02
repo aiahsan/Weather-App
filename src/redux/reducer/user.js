@@ -7,7 +7,9 @@ export const userReducer = (state =null, action) => {
         return action.payload
     }
     else if (action.type === types.logOut)
-        return null;
+      {
+           return null;
+      }
        
     return state
     }

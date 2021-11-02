@@ -25,6 +25,7 @@ return   <Router history={hist} basename={process.env.REACT_APP_BASEDIR}>
                         path={prop.path}
                         key={key}
                         component={prop.component}
+                        exact={true}
                     />
                 );
             }):
@@ -35,6 +36,7 @@ return   <Router history={hist} basename={process.env.REACT_APP_BASEDIR}>
                         path={prop.path}
                         key={key}
                         component={prop.component}
+                        exact={true}
                     />
                 );
             })
